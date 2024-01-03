@@ -9,7 +9,7 @@ class Expedia_Login:
     Login_Banner = (By.PARTIAL_LINK_TEXT, "//a[text()= 'Sign in, it']")
     ExpediaRewardText= (By.LINK_TEXT, "")
     SignInText = (By.XPATH, "//h1[contains(text(),'Sign in or create an account')]")
-    googleTitle = (By.ID, "social-auth-provider-google-web")
+    GoogleTitle = (By.ID, "social-auth-provider-google-web")
     EmailTextBox = (By.ID, "loginFormEmailInput")
     EnterEmailText = (By.ID, "loginFormEmailInput-error")
     ContinueButton = (By.ID, "loginFormSubmitButton")
@@ -34,8 +34,8 @@ class Expedia_Login:
     def SignInWord(self):
         return self.driver.find_element(*Expedia_Login.SignInText)
 
-    def googleButton(self):
-        return self.driver.find_element(*Expedia_Login.googleTitle)
+    def GoogleButton(self):
+        return self.driver.find_element(*Expedia_Login.GoogleTitle)
 
     def EmailErrorText(self):
         return self.driver.find_element(*Expedia_Login.EnterEmailText)
