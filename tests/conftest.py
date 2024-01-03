@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.service import Service
 
 LandingURL = "https://rahulshettyacademy.com/AutomationPractice/"
 LandingURL1 = "https://rahulshettyacademy.com/angularpractice/"
+expedia_Url = "https://www.expedia.com/"
 
 
 def pytest_addoption(parser):
@@ -25,7 +26,7 @@ def setup(request):
         driver = webdriver.ie
     elif browser_name == "safari":
         driver = webdriver.Safari()
-    driver.get(LandingURL)
+    driver.get(expedia_Url)
     driver.maximize_window()
     request.cls.driver = driver
     yield

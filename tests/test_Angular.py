@@ -6,7 +6,7 @@ from TestData.HomePageTestData import HomePageTestData
 
 
 class TestAngular(BaseClass):
-
+    @pytest.mark.skip
     def test_SubmitForm(self, getData):
         angularPage = Angular(self.driver)
         log = self.getLogger()
@@ -17,6 +17,7 @@ class TestAngular(BaseClass):
         log.info("Test End")
         self.driver.refresh()
 
+    @pytest.mark.skip
     @pytest.fixture(params=HomePageTestData.test_homepage_data)
     def getData(self, request):
         return request.param

@@ -67,3 +67,30 @@
 2023-12-14 20:53:25,283 :INFO :test_SubmitForm : Test Started
 2023-12-14 20:53:25,372 :INFO :test_SubmitForm : Test Started
 2023-12-14 20:53:25,372 :INFO :test_SubmitForm : Test Started
+2024-01-02 12:15:21,868 :INFO :test_SubmitForm : Test Started
+2024-01-02 12:15:21,899 :INFO :test_SubmitForm : Test Started
+2024-01-02 12:15:21,899 :INFO :test_SubmitForm : Test Started
+2024-01-02 13:52:35,373 :INFO :test_Login : Test Started
+2024-01-02 13:55:09,458 :INFO :test_Login : Test Started
+2024-01-02 13:59:57,357 :INFO :test_LoginTest : Test Started
+2024-01-02 14:04:27,227 :INFO :test_LoginTest : Test Started
+2024-01-02 14:08:49,791 :INFO :test_LoginTest : Test Started
+2024-01-02 14:29:01,195 :INFO :test_LoginTest : Test Started
+2024-01-02 14:40:41,284 :INFO :test_LoginTest : Test Started
+2024-01-02 14:40:41,342 :INFO :test_LoginTest : Test Finished
+2024-01-02 14:41:09,787 :INFO :test_LoginTest : Test Started
+2024-01-02 14:46:00,919 :INFO :test_LoginTest : Test Started
+2024-01-02 14:50:26,711 :INFO :test_LoginTest : Test Started
+2024-01-02 14:51:43,088 :INFO :test_LoginTest : Test Started
+2024-01-02 14:58:04,106 :INFO :test_LoginTest : Test Started
+2024-01-02 15:12:05,571 :INFO :test_LoginTest : Test Started
+2024-01-02 15:16:52,580 :INFO :test_LoginTest : Test Started
+2024-01-02 15:16:58,674 :INFO :test_LoginTest : Test Finished
+2024-01-02 16:14:50,783 :INFO :test_ValidateElementsMainPage : Test Started
+2024-01-02 16:14:50,798 :INFO :test_ValidateElementsMainPage : Login button displayed
+2024-01-02 16:14:50,803 :ERROR :test_ValidateElementsMainPage : Stays Tab is not showing
+2024-01-02 16:14:50,810 :ERROR :test_ValidateElementsMainPage : Flight Tab is not showing
+2024-01-02 16:14:50,814 :ERROR :test_ValidateElementsMainPage : Package Tab is not showing
+2024-01-02 16:14:50,819 :ERROR :test_ValidateElementsMainPage : Things to do Tab is not showing
+2024-01-02 16:14:50,823 :ERROR :test_ValidateElementsMainPage : Cruise Tab is not showing
+2024-01-02 16:14:50,823 :INFO :test_ValidateElementsMainPage : Test Finished
